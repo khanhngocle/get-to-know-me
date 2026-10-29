@@ -1,8 +1,8 @@
 /* Overlay styling */
 
 :root {
-  --purple: #6d5aef;
-  --oPurple: #6b59ea;
+  --purple: #ec4899;
+  --oPurple: #db2777;
 }
 
 .overlay {
@@ -18,14 +18,14 @@
   padding: 10px;
   font-size: 17pt;
   font-family: "nunito", sans-serif;
-  color: var(--purple);
+  color: #2b2b2b;
   border: 10px solid var(--purple);
   overflow-y: auto;
   max-height: 70vh;
 }
 
 .overlay .short {
-  height: 100px;
+  min-height: 100px;
 }
 
 .overlay .short .tile-content {
@@ -52,6 +52,7 @@
 }
 
 .overlay .content .title {
+  color: var(--purple);
   margin: 0 25px;
   padding-bottom: 15px;
   border-bottom: 2px solid;
@@ -67,19 +68,27 @@
 .tile {
   width: 200px;
   border-radius: 10px;
-  background-color: var(--purple);
-  color: white;
+  background-color: white;
+  color: #2b2b2b;
   margin: 10px;
-  padding: 10px;
-  box-shadow: 10px 10px 0px var(oPurple);
+  padding: 15px;
+  border: 2px solid var(--purple);
+  box-shadow: 6px 6px 0px var(--oPurple);
+}
+
+.tile .tile-content {
+  font-weight: bold;
+  color: var(--purple);
 }
 
 .tile .tile-content span.description {
   display: inline-block;
   font-size: 14px;
-  line-height: 25px;
-  min-height: 100px;
-  color: #ffffffa3;
+  font-weight: normal;
+  line-height: 22px;
+  min-height: 60px;
+  margin-top: 8px;
+  color: #444444;
 }
 
 .tile a {
@@ -94,7 +103,7 @@
 
 .tile .tile-bottom a {
   font-size: 17px;
-  color: white;
+  color: var(--oPurple);
   display: inline-block;
   border-bottom: none;
 }
@@ -123,7 +132,7 @@
 img.profile-pic {
   border-radius: 15px;
   width: 300px;
-  box-shadow: 10px 10px 0px var(oPurple);
+  box-shadow: 10px 10px 0px var(--oPurple);
 }
 
 .overlay .left p {

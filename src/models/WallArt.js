@@ -8,11 +8,11 @@ function OverlayContent() {
       <div className="tile-grid">
         <div className="tile">
           <div className="tile-content">
-            Programming
+            Trading
             <br />
             <span className="description">
-              Every problem in my life is an opportunity for a new project;
-              every project I pursue is an opportunity to learn somthing new.
+              I came to the Netherlands by money I earned from trading crypto currency & stock
+              My habit are checking up the market and looking at charts, reading company news & reports; not really because I love it, I guess I love the money I make out of it 
             </span>
           </div>
         </div>
@@ -20,18 +20,15 @@ function OverlayContent() {
           <div className="tile-content">
             Hiking <br />
             <span className="description">
-              Utah&apos;s High Uintah Mountains are breathtaking! If you ever
-              get a chance to go, take a map and visit one of the unnamed lakes
-              near Mt. Marsell.
+              I was born in the Northen part of Vietnam, a moutainous area. I love climbing, hiking, and especially the view.
             </span>
           </div>
         </div>
         <div className="tile">
           <div className="tile-content">
-            3D Modeling <br />
+            Traveling <br />
             <span className="description">
-              Originally, I started learning with CAD and 3D Printing the
-              result. Now, I&apos;ve moved on to Blender and animation.
+              As an extroverted person, I love going out and exploring new places.
             </span>
           </div>
         </div>
@@ -39,8 +36,7 @@ function OverlayContent() {
           <div className="tile-content">
             Music <br />
             <span className="description">
-              I believe my specific taste is &quot;Melodic Dubstep&quot;, sorta
-              like Dubstep meets Trance.
+              I love Kpop music and going to concert.
             </span>
           </div>
         </div>

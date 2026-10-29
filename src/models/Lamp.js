@@ -13,28 +13,32 @@ const defaultConfig = {
 function OverlayContent() {
   return (
     <>
-      <h1 className="title">Skills/Languages</h1>
+          <h1 className="title">Skills & Languages</h1>
       <div className="tile-grid horizontal">
         <div className="tile short">
           <div className="tile-content">
-            Frontend <br />
+            Finance <br />
             <span className="description">
-              HTML, CSS, JS, React.js, Three.js
+              Financial modelling, valuation (DCF, comparables), M&A
+              analysis, due diligence, credit analysis
             </span>
           </div>
         </div>
         <div className="tile short">
           <div className="tile-content">
-            Backend <br />
-            <span className="description">Node.js, C++, PHP, Java</span>
+            Tools <br />
+            <span className="description">
+              Excel (advanced), PowerPoint, STATA, SPSS, R, Google Analytics
+            </span>
           </div>
         </div>
         <div className="tile short">
           <div className="tile-content">
-            Functional
+            Languages
             <br />
             <span className="description">
-              Git, NPM, Linux, Bash, OracleSQL, MongoDB
+              Vietnamese (native), English (billingual), French & Chinese
+              (elementary), Dutch (beginner)
             </span>
           </div>
         </div>

@@ -4,35 +4,21 @@ import { useSpring, a } from "@react-spring/three";
 function OverlayContent() {
   return (
     <>
-      <h1 className="title">External Links</h1>
+            <h1 className="title">Let&apos;s Connect</h1>
       <div className="tile-grid">
         <div className="tile short">
-          <div className="tile-content">Linkedin</div>
+          <div className="tile-content">LinkedIn</div>
           <div className="tile-bottom">
-            <a
-              href="https://www.linkedin.com/in/trevor-smith-27621613b/"
-              target="new"
-            >
+            <a href="https://www.linkedin.com/in/khanh-ngoc-le-03285a392/" target="new">
               visit page
             </a>
           </div>
         </div>
         <div className="tile short">
-          <div className="tile-content">Github</div>
+          <div className="tile-content">Email</div>
           <div className="tile-bottom">
-            <a href="https://github.com/trevsm" target="new">
-              visit page
-            </a>
-          </div>
-        </div>
-        <div className="tile short">
-          <div className="tile-content">StackOverflow</div>
-          <div className="tile-bottom">
-            <a
-              href="https://stackoverflow.com/users/8026620/subtora"
-              target="new"
-            >
-              visit page
+            <a href="mailto:aurora.khanhle@gmail.com" target="new">
+              send email
             </a>
           </div>
         </div>

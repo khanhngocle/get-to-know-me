@@ -31,17 +31,22 @@ export function Glasses({ materials, nodes, setItems }) {
 
   const Overlay = (
     <div>
-      <h1 className="title">About</h1>
+      <h1 className="title">About me</h1>
       <div className="split">
-        <div className="left">
-          <p>Hey! I&apos;m Trevor Smith. </p>
+               <div className="left">
+          <p>Hey! I am Ngoc Khanh.</p>
           <p>
-            I am currently a senior at Weber State University pursuing a
-            bachelor&apos;s degree in Computer Science.
+            A second year Master student in Corporate Finance and Control
+            with a full ride scholarship at Radboud University.
           </p>
           <p>
-            I am also a front-end software developer working for The Energy &
-            Geoscience Institute at The University of Utah
+            Experience in the banking industry, blockchain and venture
+            capital.
+          </p>
+          <p>Adaptive, fast learner, result driven.</p>
+          <p>
+            Looking for an internship or graduate role to build my career in
+            the Netherlands.
           </p>
         </div>
         <div className="right">

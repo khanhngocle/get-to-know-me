@@ -13,84 +13,54 @@ const defaultConfig = {
 function OverlayContent() {
   return (
     <>
-      <h1 className="title">Projects</h1>
+      <h1 className="title">Why You Should Hire Me</h1>
       <div className="tile-grid">
         <div className="tile">
           <div className="tile-content">
-            Devices <br />
+            Solid background with proven academic results <br />
             <span className="description">
-              View super fast screenshots of any website in multiple device
-              formats at once. (React | Node | Puppeteer)
+              Full ride scholarship at Radboud University and
+              Honored Graduate (top 1% of 1,800) at Foreign
+              Trade University, plus hands-on experience in
+              banking at VPBank and venture capital at Primus
+              Spark Ventures.
             </span>
-          </div>
-          <div className="tile-bottom">
-            <a href="http://devices.red/" target="new">
-              Live Page
-            </a>
-            <a href="https://github.com/trevsm/mydevices" target="new">
-              Source
-            </a>
           </div>
         </div>
         <div className="tile">
           <div className="tile-content">
-            WhenToWakeUp <br />
+            Eager to learn and result driven <br />
             <span className="description">
-              Find when is the best time to wake up if you went to bed right
-              now. (React)
+              I pick up new skills fast, from credit analysis
+              to valuation to coding this website, and I focus
+              on delivering results the team can use.
             </span>
-          </div>
-          <div className="tile-bottom">
-            <a href="https://whentowakeup.com/" target="new">
-              Live Page
-            </a>
-            <a href="https://github.com/trevsm/whentowakeup" target="new">
-              Source
-            </a>
           </div>
         </div>
         <div className="tile">
           <div className="tile-content">
-            Lostkey <br />
+            Tech and AI readiness <br />
             <span className="description">
-              Anonymous chat rooms in an SMS format. (React | Node | MongoDB)
+              Advanced Excel, STATA and SPSS, curious about
+              how AI is changing finance, and I built this 3D
+              website myself.
             </span>
-          </div>
-          <div className="tile-bottom">
-            <a href="http://lostkey.host/" target="new">
-              Live Page
-            </a>
           </div>
         </div>
         <div className="tile">
           <div className="tile-content">
-            WhatGPU?! <br />
+            Please give me a chance <br />
             <span className="description">
-              Find out online what GPU you are using. (React | Three)
+              Open to internships and graduate roles in the Netherlands.
+              I am ready to learn, contribute and grow with your team.
             </span>
           </div>
           <div className="tile-bottom">
-            <a href="https://whatgpu.net/" target="new">
-              Live Page
+            <a href="mailto:aurora.khanhle@gmail.com" target="new">
+              Email
             </a>
-            <a href="https://github.com/trevsm/whatgpu" target="new">
-              Source
-            </a>
-          </div>
-        </div>
-        <div className="tile">
-          <div className="tile-content">
-            Satisfying 24h Clock <br />
-            <span className="description">
-              Oddly Satisfying 24 hour clock recreation. (React)
-            </span>
-          </div>
-          <div className="tile-bottom">
-            <a href="https://trevsm.github.io/os-modern-clock/" target="new">
-              Live Page
-            </a>
-            <a href="https://github.com/trevsm/os-modern-clock" target="new">
-              Source
+            <a href="./cv.pdf" target="new">
+              CV
             </a>
           </div>
         </div>

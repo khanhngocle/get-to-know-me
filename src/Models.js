@@ -15,7 +15,7 @@ import { useGLTF } from "@react-three/drei";
 export default function Models({ setItems }) {
   const group = useRef();
   const { nodes, materials } = useGLTF("/models/iso-poly.gltf");
-
+   materials.Default_Color.color.set("#ec4899");
   return (
     <group
       ref={group}

@@ -2,6 +2,11 @@ import React, { useEffect, useState } from "react";
 
 import { useSpring } from "@react-spring/core";
 import { a } from "@react-spring/three";
+import { Text } from "@react-three/drei";
+
+// Change these two lines to change the big 3D text on the wall
+const NAME_LINE = "I'm Khanh.";
+const SUB_LINE = "Finance & AI Enthusiast";
 
 export function TextHeaders({ materials, nodes }) {
   const [active, setActive] = useState(false);
@@ -47,18 +52,26 @@ export function TextHeaders({ materials, nodes }) {
         position={sProps.pos0}
         rotation={[Math.PI / 2, 0, -Math.PI / 2]}
       />
-      <a.mesh
-        material={materials.Default_Color}
-        geometry={nodes.Im_Trevor.geometry}
-        position={sProps.pos1}
-        rotation={[Math.PI / 2, 0, -Math.PI / 2]}
-      />
-      <a.mesh
-        material={materials.Default_Color}
-        geometry={nodes.I_Create.geometry}
-        position={sProps.pos2}
-        rotation={[Math.PI / 2, 0, -Math.PI / 2]}
-      />
+      <a.group position={sProps.pos1} rotation={[0, Math.PI / 2, 0]}>
+        <Text
+          fontSize={0.105}
+          anchorX="left"
+          anchorY="bottom-baseline"
+          material={materials.Default_Color}
+        >
+          {NAME_LINE}
+        </Text>
+      </a.group>
+      <a.group position={sProps.pos2} rotation={[0, Math.PI / 2, 0]}>
+        <Text
+          fontSize={0.06}
+          anchorX="left"
+          anchorY="bottom-baseline"
+          material={materials.Default_Color}
+        >
+          {SUB_LINE}
+        </Text>
+      </a.group>
       <a.mesh
         geometry={nodes.Look_Around.geometry}
         material={materials.Default_Color}
